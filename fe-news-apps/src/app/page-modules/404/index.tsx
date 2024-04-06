@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Result } from "antd";
 import { Link } from "react-router-dom";
 
-const Notfound: React.FC = () => (
+const Page404: React.FC = () => (
   <Result
     status="404"
     title="404"
@@ -15,4 +15,4 @@ const Notfound: React.FC = () => (
   />
 );
 
-export default Notfound;
+export default Page404;
